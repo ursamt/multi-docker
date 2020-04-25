@@ -35,8 +35,8 @@
                 }
             ],
             "links": [
-                "client",
-                "server"
+                "name: client",
+                "name: server"
             ]
         }
     ]
