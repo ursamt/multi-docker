@@ -26,7 +26,7 @@ deploy:
   # elasticbeanstalk-ap-southeast-1-629830000026
   # http://dockerreact-env.eba-2b8wgitw.ap-southeast-1.elasticbeanstalk.com/
   bucket_path: "docker-multi"
-   on:
+  on:
     branch: master
   access_key_id: $AWS_ACCESS_KEY_ID
   secret_access_key: $AWS_SECRET_ACCESS_KEY
