@@ -1,6 +1,6 @@
 {
     "AWSEBDockerrunVersion": 2,
-    "containerDefintions": [
+    "containerDefinitions": [
         {
             "name": "client",
             "image": "mohamedthowbick/multi-client",
@@ -34,10 +34,7 @@
                     "containerPort": 80
                 }
             ],
-            "links": [
-                "client",
-                "server"
-            ]
+            "links": ["client","server"]
         }
     ]
 }
